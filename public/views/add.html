@@ -1,0 +1,11 @@
+<div class="container">
+    <form method="POST" ng-submit="send_data();">
+        User Name : <br><input type="text" name="firstname" required placeholder="Enter your name" ng-model="form_data.first_name" > <br>
+        Phone Number : <br><input type="number" name="phone" required maxlength="10" minlength="10" placeholder="Enter yourr Phone Number" ng-model="form_data.phone">
+       <br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
